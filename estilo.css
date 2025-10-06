@@ -1,0 +1,13 @@
+/* estilo mínimo para la tabla de horario */
+body{font-family:Arial,sans-serif;margin:0;padding:12px;background:#fff;color:#111}
+center{display:block;max-width:980px;margin:0 auto}
+table{width:100%;border-collapse:collapse}
+th,td{padding:8px;border:1px solid #ddd;text-align:center}
+tr:first-child td{background:#1976d2;color:#fff;font-weight:700;text-align:left}
+td:first-child{font-weight:800;text-align:left}
+.recreo{font-style:italic;color:#666}
+@media (max-width:600px){
+  tr:first-child{display:none}
+  table,tbody,tr,td{display:block;width:100%}
+  td{border:none;padding:6px 0}
+}
